@@ -28,14 +28,18 @@ $green:   #18BC9C !default;
 $teal:    #20c997 !default;
 $cyan:    #3498DB !default;
 
-$primary:       $blue !default;
+$primary:       #58595B !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:       #FF8300 !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-700 !default;
+
+// Body
+
+$body-color:                $primary !default;
 
 // Links
 
