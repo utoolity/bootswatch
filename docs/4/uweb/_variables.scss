@@ -29,8 +29,8 @@ $teal:    #20c997 !default;
 $cyan:    #3498DB !default;
 
 $primary:       #58595B !default;
-$secondary:     $gray-600 !default;
-$success:       #FF8300 !default;
+$secondary:     #FF8300 !default;
+$success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -43,7 +43,7 @@ $body-color:                $primary !default;
 
 // Links
 
-$link-color:                $success !default;
+$link-color:                $secondary !default;
 
 // Fonts
 
@@ -77,25 +77,27 @@ $nav-tabs-border-color:             $gray-200 !default;
 
 $navbar-padding-y:                  1rem !default;
 
-$navbar-dark-color:                 $white !default;
-$navbar-dark-hover-color:           $success !default;
+$navbar-light-color:                $primary !default;
+$navbar-light-hover-color:          $secondary !default;
+$navbar-light-active-color:         $secondary !default;
+$navbar-light-disabled-color:       $gray-400 !default;
 
 // Pagination
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $success !default;
+$pagination-bg:                     $secondary !default;
 $pagination-border-width:           0 !default;
 $pagination-border-color:           transparent !default;
 
 $pagination-hover-color:            $white !default;
-$pagination-hover-bg:               darken($success, 15%) !default;
+$pagination-hover-bg:               darken($secondary, 15%) !default;
 $pagination-hover-border-color:     transparent !default;
 
 $pagination-active-bg:              $pagination-hover-bg !default;
 $pagination-active-border-color:    transparent !default;
 
 $pagination-disabled-color:         $gray-200 !default;
-$pagination-disabled-bg:            lighten($success, 15%) !default;
+$pagination-disabled-bg:            lighten($secondary, 15%) !default;
 $pagination-disabled-border-color:  transparent !default;
 
 // Progress bars
