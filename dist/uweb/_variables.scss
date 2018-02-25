@@ -44,6 +44,7 @@ $body-color:                $primary !default;
 // Links
 
 $link-color:                $secondary !default;
+$link-hover-color:          $secondary !default; // REVIEW: We only change underline from dotted to solid, this prevents default color darkening
 
 // Fonts
 
