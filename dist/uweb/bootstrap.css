@@ -231,7 +231,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #95a5a6;
+  color: #b4bcc2;
   text-align: left;
   caption-side: bottom;
 }
@@ -2159,7 +2159,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .form-check-input:disabled ~ .form-check-label {
-  color: #95a5a6;
+  color: #b4bcc2;
 }
 
 .form-check-label {
@@ -8948,7 +8948,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #95a5a6 !important;
+  color: #b4bcc2 !important;
 }
 
 .text-hide {
