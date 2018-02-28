@@ -566,8 +566,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -598,8 +598,8 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -610,8 +610,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -20px;
+  margin-left: -20px;
 }
 
 .no-gutters {
@@ -634,8 +634,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .col {
@@ -4617,7 +4617,7 @@ tbody.collapse.show {
 }
 
 .card-deck .card {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {
@@ -4626,8 +4626,8 @@ tbody.collapse.show {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -20px;
+    margin-left: -20px;
   }
   .card-deck .card {
     display: -webkit-box;
@@ -4640,9 +4640,9 @@ tbody.collapse.show {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-right: 15px;
+    margin-right: 20px;
     margin-bottom: 0;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 }
 
@@ -4657,7 +4657,7 @@ tbody.collapse.show {
 }
 
 .card-group > .card {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {
