@@ -4788,18 +4788,18 @@ tbody.collapse.show {
   position: relative;
   display: block;
   padding: 0.5rem 0.75rem;
-  margin-left: 0;
+  margin-left: -1px;
   line-height: 1.25;
-  color: #fff;
-  background-color: #FF8300;
-  border: 0 solid transparent;
+  color: #FF8300;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
-  color: #fff;
+  color: #FF8300;
   text-decoration: none;
-  background-color: #b35c00;
-  border-color: transparent;
+  background-color: #ecf0f1;
+  border-color: #dee2e6;
 }
 
 .page-link:focus {
@@ -4827,16 +4827,16 @@ tbody.collapse.show {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #b35c00;
-  border-color: transparent;
+  background-color: #58595B;
+  border-color: #58595B;
 }
 
 .page-item.disabled .page-link {
-  color: #ecf0f1;
+  color: #95a5a6;
   pointer-events: none;
   cursor: auto;
-  background-color: #ffa84d;
-  border-color: transparent;
+  background-color: #fff;
+  border-color: #dee2e6;
 }
 
 .pagination-lg .page-link {
