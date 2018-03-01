@@ -39,6 +39,14 @@ $dark:          $gray-700 !default;
 
 // Grid
 
+// Limit the maximum width of xl `.container` to the lg value (Bootstrap default: 1140px)
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 960px
+  ) !default;
+// Increase gutter width (Bootstrap default: 30px)
 $grid-gutter-width:           40px !default;
 
 // Body
@@ -91,7 +99,23 @@ $navbar-light-active-color:         $secondary !default;
 $navbar-light-disabled-color:       $gray-400 !default;
 
 // Pagination
+/* NOTE: Reset to Bootstrap default for review baseline, though likely to be adjusted somewhat down the road
+$pagination-color:                  $white !default;
+$pagination-bg:                     $secondary !default;
+$pagination-border-width:           0 !default;
+$pagination-border-color:           transparent !default;
 
+$pagination-hover-color:            $white !default;
+$pagination-hover-bg:               darken($secondary, 15%) !default;
+$pagination-hover-border-color:     transparent !default;
+
+$pagination-active-bg:              $pagination-hover-bg !default;
+$pagination-active-border-color:    transparent !default;
+
+$pagination-disabled-color:         $gray-200 !default;
+$pagination-disabled-bg:            lighten($secondary, 15%) !default;
+$pagination-disabled-border-color:  transparent !default;
+*/
 
 // Progress bars
 

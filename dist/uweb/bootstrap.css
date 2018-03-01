@@ -5,6 +5,23 @@
  * Licensed under MIT
  * Based on Bootstrap
 */
+/* NOTE: Reset to Bootstrap default for review baseline, though likely to be adjusted somewhat down the road
+$pagination-color:                  $white !default;
+$pagination-bg:                     $secondary !default;
+$pagination-border-width:           0 !default;
+$pagination-border-color:           transparent !default;
+
+$pagination-hover-color:            $white !default;
+$pagination-hover-bg:               darken($secondary, 15%) !default;
+$pagination-hover-border-color:     transparent !default;
+
+$pagination-active-bg:              $pagination-hover-bg !default;
+$pagination-active-border-color:    transparent !default;
+
+$pagination-disabled-color:         $gray-200 !default;
+$pagination-disabled-bg:            lighten($secondary, 15%) !default;
+$pagination-disabled-border-color:  transparent !default;
+*/
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -592,7 +609,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 960px;
   }
 }
 
